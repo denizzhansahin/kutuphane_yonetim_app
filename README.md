@@ -57,7 +57,27 @@ Kotlin programlama dili ise en yeni programlama dilleri arasında yer almaktadı
 Firebase ise Google tarafından geliştirilen ve uygulama geliştiricileri için hizmet veren bir yazılımdır. Kullanıcılar için kimlik doğrulama ile giriş, bulut depolama ve veri tabanı yönetimi için kullanılmıştır. Kullanıcılar mobil uygulama ile giriş yaptıktan sonra sadece kendilerine tanımlı collection ve documentlerden veri çekecek ve veri yazacaktır.
 
 ## Firebase Kullanımı
-Firebase Auth : 
-Firebase Firestore : 
+Firebase Authentication : Kullanıcıların e-posta ve şifreler ile giriş yapması sağlanmaktadır. Burada yer alan User ID ile ilgili işlemler gerçekleştirilmektedir.
+
+Firebase Firestore : İlgili User ID ile işlemlerin gerçekleştirilmesi için birbiri ile ilişkilendirilmiş Collectionlar yer almaktadır. Collectionlar bir üst gruptur. Bu grup altında kendisine bağlı veriler yer almaktadır. Bu verilerin ise veri alanları yer almaktadır. Bunun ismi ise fiel olarak tanımlanmaktadır. Fieldların key ve value değerlerine göre işlem yapılmaktadır.
+
+Firebase Firestore Collection ve Documentler : 
+<div align="center">
+    <img src="https://github.com/denizzhansahin/kutuphane_yonetim_app/assets/95483485/92bab6f6-2c79-4b6c-a566-7aca18522268" width="100%">
+</div>
+
+kullaniciBilgileri : User ID ile kullanıcı ile ilgili bir document oluşturulur. 
+
+Bu document içinde ise sırası ile bu fieldlar bulunmaktadır : eposta, firebasID, isim, kutuphane_bilgi, soyisim, yonetici_yetki. 
+
+Burada yer alan yonetici_yeki ile ilgili kullanıcıya sistem üzerinde yönetim yetkisi verilir. kutuphane_bilgi ise bu kullanıcıya tanımlı olan kütüphane ile işlem yapmasını sağlamaktadır.
+
+kutuphane_bilgi : Bu bir collectiondur. İlgili kütüphane ile ilgili işlemlerin kaydedileceği collection bilgisini bir document ile saklamaktadır. Bu document içinde ise kutuphane_islem_tablo isimli bir field vardır ve ilgili işlemlerin tutulacağı collectionu belirtir. 
+
+kutuphane_(sayı-veya-karakter) : Bu ise kullanıcıya kutuphane_bilgi ile tanımlı bir collectiondur. Her kullanıcı sadece kendisine tanımlı collection için işlem yapmaktadır. Bu colleciton içinde kitaplar sırası ile kitap(sayi(kendisinden_onceki_tum_kitap_sayisi) ile kaydedilmektedir. Bu işlemler ile ilgili documentler oluşur. Bu documentlerin içinde ise sırası ile şu fieldar yer almaktadır. 
+
+kitap_id, kitap_isim, kitap_sayfa_sayi, kitap_teslim, kitap_teslim_alan_kisi, kitap_teslim_alan_kisi_telefon, kitap_teslim_alma_tarih, kitap_yayinevi, kitap_yazar.
+
+kitap_teslim ile bir kitabın teslim edilip edilmediği kontrol edilir ve ilgili kitap için ilgili uygulama içi activity açılır. kitap_teslim_alma_tarih ise ilgili kitap için Firebase Timesmap bilgisini almaktadır.
 
 ## Ekran Fotoğrafları
