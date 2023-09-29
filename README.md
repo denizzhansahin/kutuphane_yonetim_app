@@ -81,3 +81,18 @@ kitap_id, kitap_isim, kitap_sayfa_sayi, kitap_teslim, kitap_teslim_alan_kisi, ki
 kitap_teslim ile bir kitabın teslim edilip edilmediği kontrol edilir ve ilgili kitap için ilgili uygulama içi activity açılır. kitap_teslim_alma_tarih ise ilgili kitap için Firebase Timesmap bilgisini almaktadır.
 
 ## Ekran Fotoğrafları
+<div align="center">
+    <img src="https://github.com/denizzhansahin/kutuphane_yonetim_app/assets/95483485/8cb1d0f2-17ff-4752-87b7-7dba9166f1cf" width="33%">
+    <img src="https://github.com/denizzhansahin/kutuphane_yonetim_app/assets/95483485/dd051a22-aacc-4e54-b9c5-f13bbdda4754" width="33%">
+    <img src="https://github.com/denizzhansahin/kutuphane_yonetim_app/assets/95483485/e8a6b7d7-a5a0-4cbe-9a95-6d492209e5ba" width="33%">
+</div>
+<div align="center">
+    <img src="https://github.com/denizzhansahin/kutuphane_yonetim_app/assets/95483485/6b7e19d0-8d85-491f-b37d-f9e86be56a4e" width="33%">
+    <img src="https://github.com/denizzhansahin/kutuphane_yonetim_app/assets/95483485/dff487d5-2c2e-48ee-b7b9-ca789d7a931e" width="33%">
+    <img src="https://github.com/denizzhansahin/kutuphane_yonetim_app/assets/95483485/6eb68627-ee71-461f-b74a-4d9f1f26a383" width="33%">
+</div>
+<div align="center">
+    <img src="https://github.com/denizzhansahin/kutuphane_yonetim_app/assets/95483485/6d301af7-87a6-4a6e-a6b6-6f4b661b6b37" width="33%">
+    <img src="https://github.com/denizzhansahin/kutuphane_yonetim_app/assets/95483485/b1272ff3-dfa4-4ecc-a640-9f9a6c821e4c" width="33%">
+</div>
+
