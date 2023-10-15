@@ -80,6 +80,18 @@ kitap_id, kitap_isim, kitap_sayfa_sayi, kitap_teslim, kitap_teslim_alan_kisi, ki
 
 kitap_teslim ile bir kitabın teslim edilip edilmediği kontrol edilir ve ilgili kitap için ilgili uygulama içi activity açılır. kitap_teslim_alma_tarih ise ilgili kitap için Firebase Timesmap bilgisini almaktadır.
 
+## Bilgisayar Uygulaması
+Bilgisayar uygulaması ile ilgili Firebase Admin SDK Python kullanılmaktadır. Bunun için ilgili düzeltmeleri el ile yapmanız gerekebilir. Excel tablosu içindeki kitap bilgileri kolayca Firebase Firestore Database içine kaydedilmektedir. Lütfen aşağıdaki paketleri kurunuz : 
+
+pip install firebase-admin
+
+pip install pandas
+<div align="center">
+    <img src="https://github.com/denizzhansahin/kutuphane_yonetim_app/assets/95483485/998580bf-2fc1-4aec-8535-6812f2cf75cb" width="33%">
+    <img src="https://github.com/denizzhansahin/kutuphane_yonetim_app/assets/95483485/e8a6b7d7-a5a0-4cbe-9a95-6d492209e5ba" width="33%">
+</div>
+
+
 ## Ekran Fotoğrafları
 <div align="center">
     <img src="https://github.com/denizzhansahin/kutuphane_yonetim_app/assets/95483485/8cb1d0f2-17ff-4752-87b7-7dba9166f1cf" width="33%">
