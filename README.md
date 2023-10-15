@@ -87,8 +87,7 @@ pip install firebase-admin
 
 pip install pandas
 <div align="center">
-    <img src="https://github.com/denizzhansahin/kutuphane_yonetim_app/assets/95483485/998580bf-2fc1-4aec-8535-6812f2cf75cb" width="33%">
-    <img src="https://github.com/denizzhansahin/kutuphane_yonetim_app/assets/95483485/e8a6b7d7-a5a0-4cbe-9a95-6d492209e5ba" width="33%">
+    <img src="https://github.com/denizzhansahin/kutuphane_yonetim_app/assets/95483485/998580bf-2fc1-4aec-8535-6812f2cf75cb" width="100%">
 </div>
 
 
