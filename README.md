@@ -83,9 +83,9 @@ kitap_teslim ile bir kitabın teslim edilip edilmediği kontrol edilir ve ilgili
 ## Bilgisayar Uygulaması
 Bilgisayar uygulaması ile ilgili Firebase Admin SDK Python kullanılmaktadır. Bunun için ilgili düzeltmeleri el ile yapmanız gerekebilir. Excel tablosu içindeki kitap bilgileri kolayca Firebase Firestore Database içine kaydedilmektedir. Lütfen aşağıdaki paketleri kurunuz : 
 
-pip install firebase-admin
+        pip install firebase-admin
 
-pip install pandas
+        pip install pandas
 <div align="center">
     <img src="https://github.com/denizzhansahin/kutuphane_yonetim_app/assets/95483485/998580bf-2fc1-4aec-8535-6812f2cf75cb" width="100%">
 </div>
